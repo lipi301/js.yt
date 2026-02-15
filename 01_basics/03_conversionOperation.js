@@ -74,33 +74,55 @@
 
           /*convert to boolean*/
 
-// let isLoggedIn=1
+let isLoggedIn=1
 
-// let booleanIsLoggedIn= Boolean(isLoggedIn)
+let booleanIsLoggedIn= Boolean(isLoggedIn)
 // console.log(booleanIsLoggedIn)
 
-
-// let isLoggedIn_ =""
-// let booleanIsLoggedIn_= Boolean(isLoggedIn_)
+ let isLoggedIn_ =""  
+ let booleanIsLoggedIn_= Boolean(isLoggedIn_)
 // console.log(booleanIsLoggedIn_)
   
 
-// let isLoggedIn ="Lish"
-//let booleanIsLoggedIn= Boolean(isLoggedIn)
-// console.log(booleanIsLoggedIn)
+let isLoggedIn2 ="Lish"
+//let booleanIsLoggedIn2= Boolean(isLoggedIn2)
+// console.log(booleanIsLoggedIn2)
 
-                      /*  conversion to Boolean 
+                      /*  conversion to Boolean (outputs)
                           1=> true , 0 => false
-                          "=" => false
+                          "" => false
                           "Lish" => true
                           */
               
 
-          /*convert to string*/
-
+         
+            /*convert to string*/
 
 let isNumber =33
 let stringNumber = String(isNumber)
- console.log(stringNumber)
- console.log(typeof stringNumber)
+//  console.log(stringNumber)
+//  console.log(typeof stringNumber)
+
+
+                  //LEC-7
+
+let value= 3
+let negValue= -value
+// console.log(negValue)
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**3)                 //2 raised to power 3
+// console.log(2/3)
+// console.log(2%3)
+
+
+
+
+
+
+
+
+
 
