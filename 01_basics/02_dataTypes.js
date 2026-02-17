@@ -22,7 +22,7 @@ console.log(3
  //bigint
  //string => ""  ''
  //boolean => true/false
- //null => standalone value     (null: empty/kchh nhi ; null does NOT mean 0)
+ //null => standalone value     (null: empty/kchh nhi ; null Neither means 'Empty string' nor '0' )
  //undefined => variable is only declared not assigned any value
  //symbol=> unique
 
