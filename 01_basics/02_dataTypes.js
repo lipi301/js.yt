@@ -15,7 +15,7 @@ console.log(3
  let name ="Lish"                    //datatype : string
  let age =18                       //datatype : number
  let isLoggedIn=false                //datatype : boolean
- let state;
+ let state;                           // const state; => wrong. 'undefined' variable sirf 'let' se hi bana skte h
 
 
  //number => 2 to power 53
@@ -23,7 +23,7 @@ console.log(3
  //string => ""  ''
  //boolean => true/false
  //null => standalone value     (null: empty/kchh nhi ; null Neither means 'Empty string' nor '0' )
- //undefined => variable is only declared not assigned any value
+ //undefined => variable is only declared(memory is declared )but NOT assigned any value to that variable 
  //symbol=> unique
 
  //object
