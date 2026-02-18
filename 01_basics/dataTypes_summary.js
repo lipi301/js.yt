@@ -21,7 +21,7 @@ const bigNumber = 5760194761947698576983n        // putting 'n' at last of numbe
 
 
 
-//Reference( Non-primitive)
+//Reference( Non-primitive)                       //jo bhi changes honge reference(original value) mein honge
 
 //Array, objects , Functions                    =>all non-primitive variables have datatype/return type as'object'. functions: 'function object'     
 
@@ -43,12 +43,12 @@ const myFunction = function() {
   console.log("Hello World")
 }
 
-console.log(typeof bigNumber)
-console.log(typeof outsideTemp)
-console.log(typeof scoreValue)
-console.log(typeof newID)
-console.log(typeof heroes)
-console.log(typeof myFunction)
+// console.log(typeof bigNumber)
+// console.log(typeof outsideTemp)
+// console.log(typeof scoreValue)
+// console.log(typeof newID)
+// console.log(typeof heroes)
+// console.log(typeof myFunction)
 
 
 
@@ -59,3 +59,30 @@ console.log(typeof myFunction)
 
 
                        //https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//stack (primitive dataTypes),Heap(non-primitive)
+
+let myYoutubeName = "lishdotcom"
+
+let anotherName = myYoutubeName
+anotherName = "Kerendotcom"
+
+console.log(myYoutubeName)
+console.log(anotherName)
+
+
+let userOne = {
+  email : "user@google.com" ,
+  upi : "user@ybl"
+}
+
+let userTwo = userOne                           //non-primitive Type mein jb variable copy krte h tab unka reference copy hota h 
+userTwo.email = "lish@google.com"                  //  toh jo bhi changes honge wo original value mein honge
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
