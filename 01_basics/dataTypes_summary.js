@@ -21,26 +21,34 @@ const bigNumber = 5760194761947698576983n        // putting 'n' at last of numbe
 
 
 
-//Reference( Non -primitive)
+//Reference( Non-primitive)
 
-//Array, objects , Functions
+//Array, objects , Functions                    =>all non-primitive variables have datatype/return type as'object'. functions: 'function object'     
 
-const heroes = ["shaktiman", "naagraj", "doga"];               //array
+const heroes = ["shaktiman", "naagraj", "doga"];            //array
 
 {
-  name : "Lish",
-  age : 22                                                  // object: key-value pair
+  name : "Lish";
+  age : 22;                                                 // ye ek block h na ki koi object. ise ek variable ko assign krna pdega 
+                                                            //   to make it an object
 }
 
 let obj={
   name : "Lish",
-  age : 22,                                                  // object: key-value pair
+  age : 22,                                                  // object: key-value pair (dataType kchh bhi ho skta h)
 }
 
 
+const myFunction = function() {
+  console.log("Hello World")
+}
 
-
-
+console.log(typeof bigNumber)
+console.log(typeof outsideTemp)
+console.log(typeof scoreValue)
+console.log(typeof newID)
+console.log(typeof heroes)
+console.log(typeof myFunction)
 
 
 
@@ -48,3 +56,6 @@ let obj={
 // dynamically typed language :datatype automatically decide hota hai during runtime (jab program chal raha hota hai).
 
 //JAVASCRIPT : Dynamically typed language
+
+
+                       //https://262.ecma-international.org/5.1/#sec-11.4.3
