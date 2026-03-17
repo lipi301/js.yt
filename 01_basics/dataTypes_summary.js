@@ -37,6 +37,7 @@ let obj={
   name : "Lish",
   age : 22,                                                  // object: key-value pair (dataType kchh bhi ho skta h)
 }
+                    //although variables defined with 'const' cannot be changed BUT value of key-value pairin 'const object={---}' can be changed
 
 
 const myFunction = function() {
