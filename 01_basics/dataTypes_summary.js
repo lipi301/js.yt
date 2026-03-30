@@ -1,7 +1,7 @@
 /*dataTypes : primitive and non-primitive */
 
   /*Primitive       : they are call by value (whenever we copy them, only their value gets copied 
-                        and we are making changes to their copied values)   */
+                      and we are making changes to their copied values)   */
 
 //types : String, Number, Boolean, null, undefined , Symbol, BigInt
 
